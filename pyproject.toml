@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "drf-imgproxy-demo"
+version = "0.1.0"
+description = "Django demonstration site for drf-imgproxy"
+authors = ["VIPER Development UG <info@viper.dev>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^3.1.3"
+djangorestframework = "^3.12.2"
+django-environ = "^0.4.5"
+whitenoise = "^5.2.0"
+django-storages = "^1.10.1"
+uvicorn = "^0.12.3"
+drf-imgproxy = { git = "https://github.com/viper-development/drf-imgproxy.git" }
+Pillow = "^8.0.1"
+boto3 = "^1.16.25"
+minio = "^6.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
