@@ -24,6 +24,7 @@ system.
 Simply start the project with docker-compose
 
 .. code:: console
+
    $ docker-compose up
 
 Now you're able to visit the website at http://localhost:8000.
